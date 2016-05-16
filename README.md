@@ -1,4 +1,5 @@
-++ Monfort_Wiki README ++
+
+# Monfort_Wiki
 
 Monfort_wiki uses a Flask python server and an EmberJs front end.
 
@@ -10,3 +11,5 @@ Step 1:
 Step 2:  
 	1. In the main folder run `python monfort_wiki.py` to start up the backend service on localhost:5000/
 	2. run `cd wiki-search` and then run `ember s` to start up the front end on localhost:4200/
+
+
