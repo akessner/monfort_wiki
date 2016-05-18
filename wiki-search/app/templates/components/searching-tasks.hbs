@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+  <tr>
+  <th><!-- handle bizzare ember behavior !--></th>
+  <th >Search query</th>
+  <th >Status</th>
+  <th >Result</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each tasks as |task|}}
+    <tr class="row">
+      <td >{{task.query}}</td>
+      <td >{{task.status}}</td>
+      <td >{{search-results model=task.result}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+
