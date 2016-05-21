@@ -1,6 +1,6 @@
 <ul>
-  {{#each-in model as |result properties|}}
-    <li><b>{{result}}</b> : {{ properties}} </li>
+  {{#each-in model as |result property|}}
+    <li><b>{{result}}</b> : {{property}} </li>
   {{/each-in}}
 </ul>
 
