@@ -8,6 +8,8 @@ Monfort_wiki uses a Flask python server and an EmberJs front end.
 
   1. The Search Query is case sensitive and will only work for Wiki pages which have an InfoBox Template. For Example: "New York" will return a result, however "New york" will return an error
   2. Due to learning the frameworks, and time constraints, tests were not accurately testing the app and so they were removed.
+  3. When retreiving the list of tasks, the code uses redis "keys" instead of storing those keys in a set and retreiving that set, as should be done in production environments.
+  4. This project does not make use of Ember Data, or explicit Ember promises.
 
 ## Preparing your Environment:  
   
